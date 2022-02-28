@@ -1,0 +1,55 @@
+body {
+  accent-color: #ffc107;
+  height: 640px;
+  width: 360px;
+}
+
+.background {
+  background: center / contain no-repeat url('./images/background.webp');
+  inset: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.bg-glass {
+  backdrop-filter: blur(15px);
+  background-color: hsla(50, 100%, 95%, 0.4);
+}
+
+.carousel {
+  display: grid;
+  gap: 0.1rem;
+  grid-auto-columns: 50%;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  scroll-snap-type: inline proximity;
+}
+
+.carousel-item {
+  display: block;
+  scroll-snap-align: start;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+
+.gap-1 > * {
+  max-width: calc(50% - 0.25rem);
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.text-medium {
+  font-size: 7vw;
+}
