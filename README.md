@@ -5,6 +5,11 @@
   
   ![Projeto App de Receitas](https://user-images.githubusercontent.com/88909438/173153009-41b32b9c-a497-4282-b0be-8615be4e756d.png)
 
+## Desenvolvedores do projeto
+  - [Gabriel Fontes](https://www.linkedin.com/in/gabfontes/)
+  - [Felipe Pugas](https://www.linkedin.com/in/felipe-pugas/)
+  - [Israel Santanna](https://www.linkedin.com/in/israelss/)
+  - [Flávio Alves](https://www.linkedin.com/in/fasouzarj/)
 
 ## 💡 Tecnologias/Bibliotecas Usadas 
   - React
